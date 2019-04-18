@@ -45,6 +45,7 @@ public class SearchPageTest {
         assertEquals(true, correcrYear);
     }
 
+
     @Test
     public void verifyIfPriceOrderDescend(){
         float[] descendingPriceList = searchPage.totalPriceList();
