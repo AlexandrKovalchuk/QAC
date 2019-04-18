@@ -20,7 +20,6 @@ public class SearchPageTest {
         }
     }
 
-
     @BeforeClass
     public void setUp(){
         config.getDriver().get(url);
